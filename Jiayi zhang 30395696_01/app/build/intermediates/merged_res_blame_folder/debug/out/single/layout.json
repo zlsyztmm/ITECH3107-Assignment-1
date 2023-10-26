@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/item_student_sta.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/item_student_sta.xml"
+    },
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/activity_class_detail.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/activity_class_detail.xml"
+    },
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/item_class.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/item_class.xml"
+    },
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/activity_class_item.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/activity_class_item.xml"
+    },
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/activity_class.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/activity_class.xml"
+    },
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/activity_add_student.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/activity_add_student.xml"
+    },
+    {
+        "merged": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-31:/layout/item_student.xml",
+        "source": "au.edu.federation.itech3107.studentattendance30395696.app-main-34:/layout/item_student.xml"
+    }
+]

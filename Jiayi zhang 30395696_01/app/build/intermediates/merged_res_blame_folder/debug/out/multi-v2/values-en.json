@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-30:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\29559\\.gradle\\caches\\transforms-3\\32dc7b417c5e833f220ebdcb49cf1f75\\transformed\\jetified-BaseRecyclerViewAdapterHelper-2.9.30\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,162",
+                        "endColumns": "49,56,46",
+                        "endOffsets": "100,157,204"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\29559\\.gradle\\caches\\transforms-3\\213ccd82ac2d7eded345b4b440923265\\transformed\\jetified-Android-PickerView-4.1.9\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,153,200,249,296,345,399",
+                        "endColumns": "52,44,46,48,46,48,53,45",
+                        "endOffsets": "103,148,195,244,291,340,394,440"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "209,262,307,354,403,450,499,553",
+                        "endColumns": "52,44,46,48,46,48,53,45",
+                        "endOffsets": "257,302,349,398,445,494,548,594"
+                    }
+                }
+            ]
+        }
+    ]
+}
