@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\29559\\.gradle\\caches\\transforms-3\\3036a6892eb7d9576a11ce4c9e5d5183\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
