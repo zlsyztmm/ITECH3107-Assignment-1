@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'au.edu.federation.itech3107.studentattendance30395696'
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "au.edu.federation.itech3107.studentattendance30395696"
+        minSdk 23
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.3.0'
+    }
+
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    implementation 'com.contrarywind:Android-PickerView:4.1.9'
+
+
+    implementation "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30"
+    implementation 'com.google.android.material:material:1.1.0' //为了防止不必要的依赖冲突，0.0.3开始需要自行依赖google material库
+    implementation 'com.github.loperSeven:DateTimePicker:0.3.0'//此处不保证最新版本，最新版需前往文末github查看
+
+    def room_version = "2.3.0"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
