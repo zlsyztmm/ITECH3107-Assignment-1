@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:textColor="#474744"
+        android:id="@+id/hint_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        android:textSize="23dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="账号"
+        android:textSize="18dp"></TextView>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的账号"
+        android:inputType="none"
+        android:singleLine="true"></EditText>
+
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        android:textSize="18dp"></TextView>
+
+    <EditText
+        android:layout_marginTop="20dp"
+
+        android:singleLine="true"
+        android:id="@+id/user_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的密码"
+        android:inputType="textPassword"></EditText>
+
+<!--    <RadioGroup-->
+<!--        android:layout_marginTop="20dp"-->
+
+<!--        android:id="@+id/choose_group"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:visibility="gone">-->
+
+<!--        <RadioButton-->
+<!--            android:textColor="@color/teal_200"-->
+<!--            android:id="@+id/rudio_btn_1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="我是教师"></RadioButton>-->
+
+<!--        <RadioButton-->
+<!--            android:textColor="@color/teal_200"-->
+<!--            android:id="@+id/rudio_btn_2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="我是学生"></RadioButton>-->
+
+<!--    </RadioGroup>-->
+
+    <Button
+        android:id="@+id/sub_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_yuan_bg"
+        android:textColor="@color/white"></Button>
+
+    <TextView
+        android:id="@+id/hint_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextPink"
+        android:textSize="18dp"></TextView>
+</LinearLayout>
