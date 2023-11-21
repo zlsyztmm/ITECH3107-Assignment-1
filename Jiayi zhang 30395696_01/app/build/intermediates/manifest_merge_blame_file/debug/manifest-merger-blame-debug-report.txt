@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="au.edu.federation.itech3107.studentattendance30395696"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:6:5-47:19
+12        android:name="au.edu.federation.itech3107.studentattendance30395696.App"
+12-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:7:9-28
+13        android:allowBackup="true"
+13-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:8:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.7.0] C:\Users\29559\.gradle\caches\transforms-3\7e1d51aeb74d3e779a1d2714599e3f2c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+15        android:dataExtractionRules="@xml/data_extraction_rules"
+15-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:9:9-65
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:10:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.MyApplication" >
+24-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:15:9-51
+25        <activity
+25-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:17:9-25:20
+26            android:name="au.edu.federation.itech3107.studentattendance30395696.activity.MainActivity"
+26-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:18:13-50
+27            android:exported="true" >
+27-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:19:13-36
+28            <intent-filter>
+28-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:21:17-69
+29-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:23:17-77
+31-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:26:9-30:20
+35            android:name="au.edu.federation.itech3107.studentattendance30395696.activity.ClassItemActivity"
+35-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:27:13-55
+36            android:exported="false" >
+36-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:28:13-37
+37        </activity>
+38        <activity
+38-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:31:9-35:20
+39            android:name="au.edu.federation.itech3107.studentattendance30395696.activity.AddStudentActivity"
+39-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:32:13-56
+40            android:exported="false" >
+40-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:33:13-37
+41        </activity>
+42        <activity
+42-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:36:9-40:20
+43            android:name="au.edu.federation.itech3107.studentattendance30395696.activity.ClassDetailActivity"
+43-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:37:13-57
+44            android:exported="false" >
+44-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:38:13-37
+45        </activity>
+46        <activity
+46-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:42:9-46:20
+47            android:name="au.edu.federation.itech3107.studentattendance30395696.activity.ClassActivity"
+47-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:43:13-51
+48            android:exported="true" >
+48-->C:\Users\29559\Desktop\Assessment_1\stu\app\src\main\AndroidManifest.xml:44:13-36
+49        </activity>
+50
+51        <service
+51-->[androidx.room:room-runtime:2.3.0] C:\Users\29559\.gradle\caches\transforms-3\27e134f6f959e5aaf1e79fee92763070\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.3.0] C:\Users\29559\.gradle\caches\transforms-3\27e134f6f959e5aaf1e79fee92763070\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.3.0] C:\Users\29559\.gradle\caches\transforms-3\27e134f6f959e5aaf1e79fee92763070\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.3.0] C:\Users\29559\.gradle\caches\transforms-3\27e134f6f959e5aaf1e79fee92763070\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\29559\.gradle\caches\transforms-3\215884d1308c05876338a1a1c21f836b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\29559\.gradle\caches\transforms-3\215884d1308c05876338a1a1c21f836b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+58            android:authorities="au.edu.federation.itech3107.studentattendance30395696.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\29559\.gradle\caches\transforms-3\215884d1308c05876338a1a1c21f836b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\29559\.gradle\caches\transforms-3\215884d1308c05876338a1a1c21f836b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\29559\.gradle\caches\transforms-3\215884d1308c05876338a1a1c21f836b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\29559\.gradle\caches\transforms-3\215884d1308c05876338a1a1c21f836b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\29559\.gradle\caches\transforms-3\215884d1308c05876338a1a1c21f836b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\29559\.gradle\caches\transforms-3\37bb7fed9ff0dd74b5e86582048e78c6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\29559\.gradle\caches\transforms-3\37bb7fed9ff0dd74b5e86582048e78c6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\29559\.gradle\caches\transforms-3\37bb7fed9ff0dd74b5e86582048e78c6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>

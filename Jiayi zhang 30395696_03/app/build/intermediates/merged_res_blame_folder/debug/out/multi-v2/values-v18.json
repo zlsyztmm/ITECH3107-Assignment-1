@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "au.edu.federation.itech3107.studentattendance30395696.app-mergeDebugResources-30:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\29559\\.gradle\\caches\\transforms-3\\3036a6892eb7d9576a11ce4c9e5d5183\\transformed\\appcompat-1.4.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
